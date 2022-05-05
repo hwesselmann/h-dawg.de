@@ -7,11 +7,11 @@ RUN apk update && apk --update add ruby ruby-irb nodejs ruby-json ruby-rake \
 
 RUN apk add --virtual build-deps git build-base ruby-dev \
    libc-dev linux-headers && \
-   gem install bundler --no-ri --no-rdoc && \
+   gem install bundler && \
    bundle config build.nokogiri --use-system-libraries
 
 COPY Gemfile* /app/
-RUN bundle install --clean --without development test
+RUN bundle install --without development test
 COPY . /app
 RUN bundle exec jekyll build -d ./build --verbose
 
