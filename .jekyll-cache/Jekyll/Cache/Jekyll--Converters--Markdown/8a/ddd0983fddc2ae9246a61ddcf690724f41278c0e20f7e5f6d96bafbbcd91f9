@@ -1,8 +1,0 @@
-I"�<p>Tja, was soll ich sagen, der Titel ist ja eigentlich schon lang genug.</p>
-
-<p>Um ALUI 6.5 auf <a href="https://glassfish.dev.java.net/">GlassFish</a> laufen zu lassen braucht es nicht viel – eine ALUI-Installation und einen funktionierenden Prelude-Server. Dann nur noch die <em>portal.war</em> aus dem Verzeichnis <em>alui/ptportal/6.5/webapps</em> deployen – sofern Ihr die sonstigen ALUI-Einstellungen per Configuration Manager korekt habt, könnt Ihr Euch jetzt über ein funktionierendes Portal auf einem schnellen und modernen Applicationserver freuen! Eigentlich doch gar nicht so kompliziert, oder?</p>
-
-<p>Das IDK 6.0 und alles, was Ihr damit machen könnt, laufen natürlich genauso problemlos!</p>
-
-<p><strong>Nochwas:</strong> GlassFish ist definitiv von BEA/Oracle <strong>nicht unterstützt</strong> und wird wohl nicht auf die Liste der möglichen Serverkonfigurationen kommen. Also betreibt Ihr diese Konfiguration auf eigene Gefahr…</p>
-:ET
