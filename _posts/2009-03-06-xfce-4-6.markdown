@@ -1,0 +1,14 @@
+---
+layout: post
+title: XFCE 4.6
+date: '2009-03-06 08:09:00'
+tags:
+- archlinux
+- eeepc
+- xfce
+---
+
+Mein EeePC läuft jetzt mit der neuen XFCE-Version. Ehrlicherweise hat sich vordergründig für mich nicht allzu viel verändert. Naja, ich bin halt ein anspruchsloser Anwender...
+Hier hat das Upgrade übrigens ohne Problem und recht zügig geklappt.
+
+Trotz dieser Arbeit kämpfe ich noch mit mir, ob ich mir ein Samsung NC10 zulegen soll und den Eee abgebe. Mal sehen, wie der Kontostand am Monatsende aussieht.

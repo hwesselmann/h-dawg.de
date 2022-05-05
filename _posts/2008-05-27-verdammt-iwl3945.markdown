@@ -1,0 +1,13 @@
+---
+layout: post
+title: Verdammt - iwl3945
+date: '2008-05-27 15:49:00'
+tags:
+- archlinux
+- linux
+- thinkpad
+- intel
+- wlan
+---
+
+Vorgestern kam ein Update auf Kernel 2.6.25. Ist ja an sich nichts Schlimmes, für mich leider schon: Nach dem Update verhilet sich mein WLAN genau so, wie es in vielen Artikeln über den IWL3945-Treiber beschrieben steht. Die Verbindung bricht regelmäßig zusammen, beim Suchen nach Netzwerken werden mal alle, mal keine und mal eine Teilmenge der verfügbaren Access-Points angezeigt. Super. Was macht man da? Vielleicht kann manch einer damit leben, nach dem Login 40 Sekunden lang nach seinem eigenen WLAN zu suchen, ich kann das auf jeden Fall nicht und bin zurück zum guten alten ipw3945-Treiber. Die Installation ist ja dank _pacman_ mit Archlinux nicht schwer (Trotzdem ist [hier](http://wiki.archlinux.org/index.php/Wireless#ipw3945_.28Alternate_Method.29) der Link zur Wiki-Seite). Kurzes Neuladen der Module und siehe da &#8211; sogar die Indikator-LED für WLAN an meinem Thinkpad arbeitet wie sie soll. Warum habe ich vorher den anderen Treiber benutzt?

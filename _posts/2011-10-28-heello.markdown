@@ -1,0 +1,13 @@
+---
+layout: post
+title: Heello?
+date: '2011-10-28 19:03:00'
+tags:
+- twitter
+- soziale-netzwerke
+- heello
+- offline
+---
+
+Vor einigen Wochen habe ich mich bei [Heello](http://www.heello.com/) angemeldet &#8211; einem Twitter-Klon mit Potenzial, aber ohne echten Mehrwert.
+Und jetzt? Auf der Plattform ist so viel los, es fehlt nur noch der obligatorische Busch, der vom Wind durch die Gegend getrieben wird (wie in alten Western-Filmen). Ich bin gespannt, wann das Teil offline geht&#8230;

@@ -1,0 +1,13 @@
+---
+layout: post
+title: Netbeans
+date: '2008-07-03 15:26:00'
+tags:
+- java
+- eclipse
+- netbeans
+- emacs
+- ide
+---
+
+Ich liebe NetBeans 6.1. Seit gestern. Das Teil kann alles, was Eclipse kann und noch mehr (und das ohne externe Plugins!). Die IDE reagiert schnell und sieht mittlerweile auch gut aus. Heute sind alle Eclipse-Projekte nach NetBeans migriert &#8211; nur von Aptana kann ich mich noch nicht trennen (obwohl ich ehrlicherweise Rails-Projekte mittlerweile meistens mit emacs bearbeite)&#8230;

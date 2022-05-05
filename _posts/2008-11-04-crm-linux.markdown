@@ -1,0 +1,15 @@
+---
+layout: post
+title: CRM & Linux
+date: '2008-11-04 21:29:00'
+tags:
+- linux
+- conflate
+- crm
+- mono
+---
+
+Gibt es eigentlich ein gutes CRM-System unter Linux, dass nicht webbasiert ist? Ich habe bisher kein passendes gefunden. Ich will sowieso gerne etwas mit C#/Mono machen &#8211; vielleicht kann man ja hier eine Basislösung, die z.B. für Einzelpersonen und im KMU-bereich interessant sein könnte schaffen?
+Hmm, mal sehen. Mehr vielleicht in Kürze hier ;-)
+
+Na gut, im Moment habe ich zwar noch ein aktives Projekt, wo ich dringend wieder ran müsste, aber&#8230;
