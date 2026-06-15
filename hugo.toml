@@ -14,7 +14,7 @@ DefaultContentLanguage = "de"
   since = 2005
   readingTime = true
   wordCount = true
-  socialShare = true
+  socialShare = false
   showRelatedPosts = true
   rss = true
   selfHosted = false
@@ -48,3 +48,42 @@ DefaultContentLanguage = "de"
   gitlab = "hwesselmann"
   mastodon = "https://vivaldi.social/@hwesselmann"
   linkedin = "haukewesselmann"
+
+[[menu.main]]
+    name = "über mich"
+    url = "page/about/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    weight = 2
+
+[[menu.main]]
+    parent = "blog"
+    name = "posts"
+    url = "posts/"
+    weight = 1
+
+[[menu.main]]
+    parent = "blog"
+    name = "tags"
+    url = "tags/"
+    weight = 2
+
+[[menu.main]]
+    parent = "blog"
+    name = "kategorien"
+    url = "categories/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "datenschutz"
+    name = "datenschutz"
+    url = "page/datenschutz/"
+    weight = 3
+
+[[menu.main]]
+    name = "impressum"
+    url = "page/impressum/"
+    weight = 4
