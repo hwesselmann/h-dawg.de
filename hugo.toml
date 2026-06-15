@@ -9,7 +9,8 @@ DefaultContentLanguage = "de"
 
 [Params]
   subtitle = "...nur ein bisschen wirres zeug..."
-  favicon = "favicon.ico"
+  favicon = "favicon.svg"
+  logo = "favicon.svg"
   dateFormat = "02.01.2006"
   since = 2005
   readingTime = true
