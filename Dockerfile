@@ -1,10 +1,12 @@
-FROM alpine:3 AS hugo-builder
+FROM debian:stable-slim AS hugo-builder
 ARG HUGO_VERSION=0.163.1
-RUN apk add --no-cache curl tar && \
-    GOARCH=$([ "$(uname -m)" = "aarch64" ] && echo "arm64" || echo "amd64") && \
+RUN apt-get update -qq && \
+    apt-get install -y --no-install-recommends curl ca-certificates tar && \
+    rm -rf /var/lib/apt/lists/* && \
+    ARCH=$(dpkg --print-architecture) && \
     curl -fLo /tmp/hugo.tar.gz \
-      "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-${GOARCH}.tar.gz" && \
-    tar -xzf /tmp/hugo.tar.gz -C /usr/local/bin && \
+      "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-${ARCH}.tar.gz" && \
+    tar -xzf /tmp/hugo.tar.gz -C /usr/local/bin hugo && \
     rm /tmp/hugo.tar.gz && \
     hugo version
 WORKDIR /src
