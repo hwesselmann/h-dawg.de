@@ -1,21 +1,45 @@
 ---
-title: about me
+title: über mich
 permalink: /about/
 ---
 
-<div>
-<div>As you are viewing this page right now, you probably want to know who made up this site.</div>
-<div>I was born in 1978 in Germany. Currently, I am living in Dorsten (Cologne area as LinkedIn would put it), a small town about 100km north-east of Cologne.</div>
-<div>After finishing school and completeing my mandatory service in the German army, I started my job training at a small company in Bergisch Gladbach (which actually is really close to Cologne) and finished with the handy job title of <em>Fachinformtiker für Anwendungsentwicklung</em> - software developer, that is.</div>
-<div>After this small company was sold to another only marginally bigger company, I worked as a network administrator for about two years before deciding to go for a degree at university.</div>
-<div>In January of 2008 I completed my studies at the <a href="http://www.inf.fh-dortmund.de">University of Applied Sciences at Dortmund</a> and am eligible to carry the title '<em>Bachelor of Science in Health Informatics</em>'. I gained some experience working in the IT department of a statutory health insurance as a Java Developer and Project Manager and as an IT consultant in a consulting agency. Currently I am working as a Software Developer in a larger company focused on services built around performing billing tasks for energy consumption in properties (among many other things related to managing properties).</div>
-<div>I was infected by Linux after first getting in touch with it in 1998, also I got deeper interest in mobile operating systems (especially the now-dead Palm webOS and SailfishOS by <a href="http://www.jolla.com">Jolla</a>) and web technologies.</div>
-<div>Other things in my daily life are typical things that are a bit nerdy - Dilbert, Starwars, Star Trek, Doctor Who, unhealthy food &amp; Coke...</div>
-<div>In the real world, I enjoy doing things that are not related to IT at all. Most of these activities involve spending time with my 4 kids (and sometimes with my wife). I play Tennis as a hobby and travel around the country watching Tennis matches of my kids (who play far better at young age than I will ever be capable of).</div>
-<h3>why 'h-dawg.de' ?</h3>
-<div>Sounds like a dumb domain name - yeah, you're probably right.</div>
-<div>How did it happen that I have chosen this name? Someone gave that nickname to me while I was on a student exchange in the United States (I was a really cool hip-hopping b-boy at that time). Afterwards, I used <em>h-dawg</em> or <em>h.dawg</em> as a nickname for video games, mail accounts and online services. Of course I imediately secured the domain names, added some mail addresses and never got rid of all of that...</div>
-<div>This site used to host the pages of my basketball team followed by the website of the complete basketball club. For a short period, I even hosted a pure static personal homepage. Since 2005 this was the place I put my blog live. It was powered by Wordpress and had about 300 posts - all in German. When I realized I do not need the power of Wordpress to cover my needs for a personal (low traffic) site, I started migrating my blog to <a href="http://ghost.org">ghost</a>. While this was in progress, I decided to start over and create a wild mixture of German and English posts while trying to cover different topics. Since I spend more time playing around with technology than creating content, I next moved to a static site generator again - this site is now generated using <a href="https://gohugo.io/">Hugo</a>.</div>
-<div></div>
-<div>Thanks for reading this far, I hope you enjoy my site!</div>
-</div>
+Weil du gerade auf diese Seite schaust, möchtest du vermutlich etwas über mich erfahren. Also los:
+
+Ich bin Jahrgang 1978 und lebe in Deutschland. Aktuell wohne ich in der schönen kleinen Hansestadt Dorsten (in LinkedIn-Sprache ist das 'Cologne area', allerdings rund 100 km von Köln entfernt).
+
+### Schule, Studium, Beruf
+Nach Abitur und dem damals noch verpflichtenden Grundwehrdienst, habe ich eine Ausbildung bei einer kleinen Firma in Bergisch Gladbach absolviert - das ist tatsächlich sehr nah an Köln - und einen Abschluss als _Fachinformatiker für Anwendungsentwicklung_ gemacht.
+
+Nachdem diese kleine Firma von einer nur unwesentlich größeren Firma übernommen wurde, habe ich zwei Jahre damit verbracht, Netzwerke und Server aufzubauen und zu administrieren - eine wirklich gute und prägende Erfahrung. Nach diesen knapp zwei Jahren wollte ich studieren, habe mich eingeschrieben und konnte im Januar 2008 mein Studium an der [Fachhochschule Dortmund](http://www.inf.fh-dortmund.de) erfolgreich abschließen. Nun bin ich _'Bachelor of Science in Health Informatics'_. Ein bisschen sperrig, aber Abschluss ist Abschluss... 
+
+Danach kamen verschiedene Dinge: Ich durfte erste Berufserfarung als Softwareentwickler und Projektmanager im Umfeld der Gesetzlichen Krankenversicherung sammeln, war danach kurz als IT-Consultant im Gesundheitswesen unterwegs.
+Ich habe viele Jahre bei einem großen Unternehmen gearbeitet, welches sich sehr erfolgreich mit dem Messen und Abrechnen von Energie in Mietshäusern beschäftigt. Dort durfte ich viel in Java entwickeln, aber auch COBOL lernen und früh auf den Zug mit Containertechnologien aufspringen.
+
+Seit einigen Jahren bin ich bei einem fröhlichen (und großen) münsterländischen Unternehmen im Bereich e-commerce beschäftigt - überraschenderweise dreht sich auch hier Vieles um Softwareentwicklung mit Java.
+
+### Familie, Hobbies, Laster
+
+1998 habe das erste Mal Linux auf einem PC installiert und komme seitdem nicht mehr von diesem sehr speziellen Betriebssystem los. Ich bin auch ein kleiner Nerd, was mobile Betriebssysteme angeht - aber immer in der Nische. Immernoch trauere ich Palm webOS hinterher und besitze zu viele Smartphones mit [Jolla SailfishOS](http://www.jolla.com). In meinem Keller findest du aber auch Telefone mit Maemo, FirefoxOS und Ubuntu Touch.
+
+Auch sonst bin ich ein klassischer Softwareentwickler - StarWars, Star Trek, Doctor Who, Klemmbausteine, ungesundes Essen, gezuckerte Getränke.
+
+Im wirklichen Leben mache ich gerne IT-ferne Dinge. Ich verbringe gerne Zeit mit meinen 4 Kindern (und meiner Frau), versuche so lange Basketball und Tennis zu spielen, wie mein Körper es erlaubt, schaue meinen Kindern sehr gerne bei ebendiesen Dingen zu (und wünschte, ich würde das jemals so gut können wie sie) und engagiere mich als Trainer und Funktionär in Sportvereinen.
+
+## Warum denn bitte 'h-dawg.de'?
+
+h-dawg.de - ein wirklich seltsamer und dummer Domainname. Ja, ihr habt warscheinlich recht.
+
+Warum ist das trotzdem meine Domain? Bei einem Schüleraustausch in die USA habe diesen Spitznamen erhalten. 'Hauke' war scheinbar zu schwer auszusprechen und ich war damals ein cooler, hip-hoppender B-Boy - also passte 'hd', 'h-dawg' vielleicht sogar ganz gut.
+
+Danach habe ich angefangen, h-dawg als Spielernamen in Computerspielen zu nutzen, habe eine Domain gesichert und mir Email-Adressen erstellt. Bis heute bin ich das Alles nicht mehr losgeworden - und jetzt will ich es auch behalten!
+
+### Diese Webseite
+
+Anfangs war diese Seite die Heimat meiner Basketballmannschaft (vom heute nicht mehr existierenden SC Buer-Hassel aus Gelsenkirchen). Für einen kurzen Moment war diese Seite auch eine ganz klassischen, statische persönliche Homepage, bevor ich 2025 im allgemeinen Blogging-Fieber einen Wordpress-Blog aufgemacht habe. Dieser Blog enthielt knapp 300 Beiträge, alle auf Deutsch.
+
+Ich wollte irgendwann etwas anderes ausprobieren (Wordpress ist nicht gerade schonend mit Ressourcen umgegangen) und habe den Blog auf die damals neue und technologisch interessante Software [ghost](http://ghost.org) umgestellt. Gleichzeitig habe ich begonnen, eine wilde Mischung aus Beiträgen auf Deutsch und Englisch zu unterschiedlichsten Themen zu erstellen. 
+
+Da diese Seite sicherlich keine High-Traffic-Seite ist und ich eigentlich immer mehr Zeit damit verbracht habe, im Hintergrund mit Technologien zu spielen, als Inhalte zu erstellen, habe ich danach statische Seitengeneratoren ausprobiert - am Ende war es lange [Jekyll](https://jekyllrb.com), welches aber nur noch im Maintenance-Modus ist.  
+Nun nutze ich [Hugo](https://gohugo.io/) und freue mich sehr darüber - meine Name ist schließlich eine Norddeutsche Form von 'Hugo'!
+
+Danke, dass du so lange durchgehalten hast. Viel Spaß beim Durchstöbern meiner Webseite!
