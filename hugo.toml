@@ -1,0 +1,50 @@
+baseURL = "https://www.h-dawg.de"
+title = "Haukes Blog"
+theme = "beautifulhugo"
+locale = "de"
+DefaultContentLanguage = "de"
+
+[pagination]
+  pagerSize = 5
+
+[Params]
+  subtitle = "...nur ein bisschen wirres zeug..."
+  favicon = "favicon.ico"
+  dateFormat = "02.01.2006"
+  since = 2005
+  readingTime = true
+  wordCount = true
+  socialShare = true
+  showRelatedPosts = true
+  rss = true
+  selfHosted = false
+
+[Params.search]
+  provider = "fuse"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[permalinks]
+  [permalinks.page]
+    posts = "/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[Params.author]
+  name = "Hauke"
+  website = "/about"
+  email = "hauke@h-dawg.de"
+  twitter = "hwesselmann"
+  github = "hwesselmann"
+  instagram = "hwesselmann78"
+  gitlab = "hwesselmann"
+  mastodon = "https://vivaldi.social/@hwesselmann"
+  linkedin = "haukewesselmann"

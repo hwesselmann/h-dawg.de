@@ -1,19 +1,13 @@
-FROM ruby:3.0.4-alpine AS jekyll-builder
-WORKDIR /app
+FROM alpine:3 AS hugo-builder
+ARG HUGO_VERSION=0.163.1
+RUN apk add --no-cache curl tar && \
+    curl -Lo /tmp/hugo.tar.gz \
+      "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz" && \
+    tar -xzf /tmp/hugo.tar.gz -C /usr/local/bin hugo && \
+    rm /tmp/hugo.tar.gz
+WORKDIR /src
+COPY . .
+RUN hugo --minify
 
-RUN apk update && apk --update add ruby ruby-irb nodejs ruby-json ruby-rake \
-   ruby-bigdecimal ruby-io-console libstdc++ tzdata  \
-   libffi-dev libxml2-dev libxslt-dev
-
-RUN apk add --virtual build-deps git build-base ruby-dev \
-   libc-dev linux-headers && \
-   gem install bundler && \
-   bundle config build.nokogiri --use-system-libraries
-
-COPY Gemfile* /app/
-RUN bundle install --without development test
-COPY . /app
-RUN bundle exec jekyll build -d ./build --verbose
-
-FROM nginx:alpine
-COPY --from=jekyll-builder /app/build /usr/share/nginx/html
+FROM nginx:stable-alpine
+COPY --from=hugo-builder /src/public /usr/share/nginx/html
