@@ -1,5 +1,5 @@
 ---
-title: "ranking-info-aktivenrangliste-und-mehr"
+title: "ranking-info: Aktivenrangliste und mehr"
 date: '2026-06-16 19:46:00'
 tags:
 - projekte
