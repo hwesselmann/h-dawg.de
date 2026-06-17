@@ -1,5 +1,5 @@
 ---
-title: "Am Ende wird alle Java"
+title: "Am Ende wird alles Java"
 date: '2026-06-19 16:47:00'
 tags:
 - projekte
