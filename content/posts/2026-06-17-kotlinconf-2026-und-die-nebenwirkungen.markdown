@@ -1,6 +1,6 @@
 ---
 title: "KotlinConf 2026 und die Nebenwirkungen"
-date: '2026-06-17 21:08:00'
+date: '2026-06-17 21:09:00'
 tags:
 - projekte
 - rankinginfo
