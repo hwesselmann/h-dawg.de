@@ -1,5 +1,5 @@
 FROM debian:stable-slim AS hugo-builder
-ARG HUGO_VERSION=0.163.1
+ARG HUGO_VERSION=0.163.2
 RUN apt-get update -qq && \
     apt-get install -y --no-install-recommends curl ca-certificates tar && \
     rm -rf /var/lib/apt/lists/* && \
@@ -13,5 +13,5 @@ WORKDIR /src
 COPY . .
 RUN hugo --minify
 
-FROM nginx:stable-alpine
-COPY --from=hugo-builder /src/public /usr/share/nginx/html
+FROM joseluisq/static-web-server:alpine
+COPY --from=hugo-builder /src/public /public
