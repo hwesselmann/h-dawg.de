@@ -3,6 +3,7 @@ title = "Haukes Blog"
 theme = "beautifulhugo"
 locale = "de"
 DefaultContentLanguage = "de"
+timezone = "Europe/Berlin"
 
 [pagination]
   pagerSize = 5
