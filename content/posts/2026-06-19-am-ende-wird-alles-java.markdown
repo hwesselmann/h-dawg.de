@@ -1,6 +1,6 @@
 ---
 title: "Am Ende wird alles Java"
-date: '2026-06-19 16:47:00'
+date: '2026-06-19 17:47:00'
 tags:
 - projekte
 - rankinginfo
